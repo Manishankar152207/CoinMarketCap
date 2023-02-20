@@ -1,4 +1,4 @@
-#CoMarketCap Django Server
+# CoMarketCap Django Server
 
 Step 1 - Make sure you have already installed Python.
 
@@ -16,4 +16,4 @@ Step 2: use npm install to install all the dependicies and packages
 
 Step 3 : At the end, use npm start to start the server
 
-#For Complete implementation of celery with django refer https://www.nickmccullum.com/celery-django-periodic-tasks/
+# For Complete implementation of celery with django refer https://www.nickmccullum.com/celery-django-periodic-tasks/
