@@ -8,6 +8,8 @@ Step 4 - Use pip to install all the package mention in the requirement.txt Try t
 
 Step 5 - After installing all the package, go to the project directory using command cd djangoserver and run the server using python manage.py runserver command.
 
+Step - Then run the start_celery_and_beat.sh (./start_celery_and_beat.sh) file to start the celery and beat. Similarly, run stop_celery_and_beat.sh (./stop_celery_and_beat.sh) file to kill the celery and beat.
+
 
 # CoMarketCap Frontend
 Step 1 : Make sure nodejs and npm are installed or not. My nodejs and npm versions are v19.6.1 and v9.4.0 respectively.
