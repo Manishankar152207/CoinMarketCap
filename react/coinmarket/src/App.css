@@ -1,0 +1,30 @@
+#searchbtn {
+    border-radius: 10px;
+    border: 1px solid rgb(87, 78, 78);
+    cursor: pointer;
+}
+
+#searchbtn:hover {
+    border-color: black;
+    background-color: #eee7f8;
+}
+
+#companiesData tr,
+#orderCompaniesData1 tr {
+    cursor: pointer;
+}
+
+#orderInvestigation {
+    float: right;
+    margin-left: 100%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#orderInvestigation:hover {
+    color: rebeccapurple;
+}
+
+.fa-user {
+    font-size: 6rem;
+}

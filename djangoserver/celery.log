@@ -1,0 +1,594 @@
+[2023-02-20 18:04:12,756: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:04:12,759: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:04:13,766: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:04:13,780: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:04:13,780: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:04:14,412: INFO/MainProcess] Task scraper_bot[5d835a9a-e869-4b2f-8599-71404cea3220] received
+[2023-02-20 18:04:14,414: INFO/ForkPoolWorker-7] ====== WebDriver manager ======
+[2023-02-20 18:04:14,457: INFO/ForkPoolWorker-7] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:04:14,577: INFO/ForkPoolWorker-7] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:04:15,412: WARNING/ForkPoolWorker-7] Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: headless chrome=110.0.5481.77)
+Stacktrace:
+#0 0x55b9c64c4d93 <unknown>
+#1 0x55b9c62932d7 <unknown>
+#2 0x55b9c628b15d <unknown>
+#3 0x55b9c627e182 <unknown>
+#4 0x55b9c627f8cb <unknown>
+#5 0x55b9c627e57f <unknown>
+#6 0x55b9c627d5bb <unknown>
+#7 0x55b9c627d404 <unknown>
+#8 0x55b9c627bee2 <unknown>
+#9 0x55b9c627c50d <unknown>
+#10 0x55b9c6295158 <unknown>
+#11 0x55b9c630bcc5 <unknown>
+#12 0x55b9c62f35f2 <unknown>
+#13 0x55b9c630b619 <unknown>
+#14 0x55b9c62f3353 <unknown>
+#15 0x55b9c62c2e40 <unknown>
+#16 0x55b9c62c4038 <unknown>
+#17 0x55b9c65188be <unknown>
+#18 0x55b9c651c8f0 <unknown>
+#19 0x55b9c64fcf90 <unknown>
+#20 0x55b9c651db7d <unknown>
+#21 0x55b9c64ee578 <unknown>
+#22 0x55b9c6542348 <unknown>
+#23 0x55b9c65424d6 <unknown>
+#24 0x55b9c655c341 <unknown>
+#25 0x7f79c1a94b43 <unknown>
+[2023-02-20 18:04:15,470: WARNING/ForkPoolWorker-7] Something went wrong. Please check.
+[2023-02-20 18:04:15,472: INFO/ForkPoolWorker-7] Task scraper_bot[5d835a9a-e869-4b2f-8599-71404cea3220] succeeded in 1.0588438269996914s: None
+[2023-02-20 18:04:44,392: INFO/MainProcess] Task scraper_bot[f1667946-02a3-45a4-943a-3f4b6adfe102] received
+[2023-02-20 18:04:44,393: INFO/ForkPoolWorker-7] ====== WebDriver manager ======
+[2023-02-20 18:04:44,437: INFO/ForkPoolWorker-7] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:04:44,556: INFO/ForkPoolWorker-7] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:04:45,371: WARNING/ForkPoolWorker-7] Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: headless chrome=110.0.5481.77)
+Stacktrace:
+#0 0x5605d3838d93 <unknown>
+#1 0x5605d36072d7 <unknown>
+#2 0x5605d35ff15d <unknown>
+#3 0x5605d35f2182 <unknown>
+#4 0x5605d35f38cb <unknown>
+#5 0x5605d35f257f <unknown>
+#6 0x5605d35f15bb <unknown>
+#7 0x5605d35f1404 <unknown>
+#8 0x5605d35efee2 <unknown>
+#9 0x5605d35f050d <unknown>
+#10 0x5605d3609158 <unknown>
+#11 0x5605d367fcc5 <unknown>
+#12 0x5605d36675f2 <unknown>
+#13 0x5605d367f619 <unknown>
+#14 0x5605d3667353 <unknown>
+#15 0x5605d3636e40 <unknown>
+#16 0x5605d3638038 <unknown>
+#17 0x5605d388c8be <unknown>
+#18 0x5605d38908f0 <unknown>
+#19 0x5605d3870f90 <unknown>
+#20 0x5605d3891b7d <unknown>
+#21 0x5605d3862578 <unknown>
+#22 0x5605d38b6348 <unknown>
+#23 0x5605d38b64d6 <unknown>
+#24 0x5605d38d0341 <unknown>
+#25 0x7f21a7694b43 <unknown>
+[2023-02-20 18:04:45,427: WARNING/ForkPoolWorker-7] Something went wrong. Please check.
+[2023-02-20 18:04:45,428: INFO/ForkPoolWorker-7] Task scraper_bot[f1667946-02a3-45a4-943a-3f4b6adfe102] succeeded in 1.0355327140005102s: None
+[2023-02-20 18:05:23,129: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:05:23,133: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:05:24,143: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:05:24,156: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:05:24,156: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:05:24,159: INFO/MainProcess] Task scraper_bot[beeda83d-6a31-4faf-9919-9aceb8467d8f] received
+[2023-02-20 18:05:24,161: INFO/ForkPoolWorker-7] ====== WebDriver manager ======
+[2023-02-20 18:05:24,209: INFO/ForkPoolWorker-7] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:05:24,335: INFO/ForkPoolWorker-7] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:05:25,724: WARNING/ForkPoolWorker-7] Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x559371c4cd93 <unknown>
+#1 0x559371a1b2d7 <unknown>
+#2 0x559371a1315d <unknown>
+#3 0x559371a06182 <unknown>
+#4 0x559371a078cb <unknown>
+#5 0x559371a0657f <unknown>
+#6 0x559371a055bb <unknown>
+#7 0x559371a05404 <unknown>
+#8 0x559371a03ee2 <unknown>
+#9 0x559371a0450d <unknown>
+#10 0x559371a1d158 <unknown>
+#11 0x559371a93cc5 <unknown>
+#12 0x559371a7b5f2 <unknown>
+#13 0x559371a93619 <unknown>
+#14 0x559371a7b353 <unknown>
+#15 0x559371a4ae40 <unknown>
+#16 0x559371a4c038 <unknown>
+#17 0x559371ca08be <unknown>
+#18 0x559371ca48f0 <unknown>
+#19 0x559371c84f90 <unknown>
+#20 0x559371ca5b7d <unknown>
+#21 0x559371c76578 <unknown>
+#22 0x559371cca348 <unknown>
+#23 0x559371cca4d6 <unknown>
+#24 0x559371ce4341 <unknown>
+#25 0x7ff01da94b43 <unknown>
+[2023-02-20 18:05:25,790: WARNING/ForkPoolWorker-7] Something went wrong. Please check.
+[2023-02-20 18:05:25,796: INFO/ForkPoolWorker-7] Task scraper_bot[beeda83d-6a31-4faf-9919-9aceb8467d8f] succeeded in 1.6355950629995277s: None
+[2023-02-20 18:05:54,065: INFO/MainProcess] Task scraper_bot[efc0c20b-4a01-4f49-b84b-92ce135f37ea] received
+[2023-02-20 18:05:54,066: INFO/ForkPoolWorker-7] ====== WebDriver manager ======
+[2023-02-20 18:05:54,116: INFO/ForkPoolWorker-7] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:05:54,242: INFO/ForkPoolWorker-7] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:05:55,593: WARNING/ForkPoolWorker-7] Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x557d67c91d93 <unknown>
+#1 0x557d67a602d7 <unknown>
+#2 0x557d67a5815d <unknown>
+#3 0x557d67a4b182 <unknown>
+#4 0x557d67a4c8cb <unknown>
+#5 0x557d67a4b57f <unknown>
+#6 0x557d67a4a5bb <unknown>
+#7 0x557d67a4a404 <unknown>
+#8 0x557d67a48ee2 <unknown>
+#9 0x557d67a4950d <unknown>
+#10 0x557d67a62158 <unknown>
+#11 0x557d67ad8cc5 <unknown>
+#12 0x557d67ac05f2 <unknown>
+#13 0x557d67ad8619 <unknown>
+#14 0x557d67ac0353 <unknown>
+#15 0x557d67a8fe40 <unknown>
+#16 0x557d67a91038 <unknown>
+#17 0x557d67ce58be <unknown>
+#18 0x557d67ce98f0 <unknown>
+#19 0x557d67cc9f90 <unknown>
+#20 0x557d67ceab7d <unknown>
+#21 0x557d67cbb578 <unknown>
+#22 0x557d67d0f348 <unknown>
+#23 0x557d67d0f4d6 <unknown>
+#24 0x557d67d29341 <unknown>
+#25 0x7f316d894b43 <unknown>
+[2023-02-20 18:05:55,669: WARNING/ForkPoolWorker-7] Something went wrong. Please check.
+[2023-02-20 18:05:55,671: INFO/ForkPoolWorker-7] Task scraper_bot[efc0c20b-4a01-4f49-b84b-92ce135f37ea] succeeded in 1.604893849000291s: None
+[2023-02-20 18:06:24,068: INFO/MainProcess] Task scraper_bot[68282598-c114-4553-b8a7-47411804bc76] received
+[2023-02-20 18:06:24,069: INFO/ForkPoolWorker-7] ====== WebDriver manager ======
+[2023-02-20 18:06:24,115: INFO/ForkPoolWorker-7] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:06:24,692: INFO/ForkPoolWorker-7] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:06:41,854: WARNING/ForkPoolWorker-7] Data saved successfully.
+[2023-02-20 18:06:54,069: INFO/MainProcess] Task scraper_bot[830dd216-bd80-4480-95c1-d50a546c8640] received
+[2023-02-20 18:06:54,071: INFO/ForkPoolWorker-8] ====== WebDriver manager ======
+[2023-02-20 18:06:54,123: INFO/ForkPoolWorker-8] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:06:55,603: INFO/ForkPoolWorker-8] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:06:57,493: WARNING/ForkPoolWorker-7] Data saved successfully.
+[2023-02-20 18:07:15,397: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:07:16,098: WARNING/ForkPoolWorker-7] Data saved successfully.
+[2023-02-20 18:07:24,092: INFO/MainProcess] Task scraper_bot[441b313d-594c-431a-8552-a708efd1afef] received
+[2023-02-20 18:07:24,242: INFO/ForkPoolWorker-1] ====== WebDriver manager ======
+[2023-02-20 18:07:24,716: INFO/ForkPoolWorker-1] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:07:25,909: INFO/ForkPoolWorker-1] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:07:40,112: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:07:40,674: WARNING/ForkPoolWorker-7] Data saved successfully.
+[2023-02-20 18:07:51,384: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:07:54,079: INFO/MainProcess] Task scraper_bot[192d4b0e-95ad-4855-be86-4fbe6881a945] received
+[2023-02-20 18:07:54,134: INFO/ForkPoolWorker-2] ====== WebDriver manager ======
+[2023-02-20 18:07:54,366: INFO/ForkPoolWorker-2] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:07:55,548: INFO/ForkPoolWorker-2] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:08:09,576: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:08:10,154: WARNING/ForkPoolWorker-7] Data saved successfully.
+[2023-02-20 18:12:09,744: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:12:09,747: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:12:10,755: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:12:10,768: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:12:10,769: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:12:11,264: INFO/MainProcess] Task scraper_bot[99a8953d-da98-4d41-8d7e-1e448e2548b9] received
+[2023-02-20 18:12:11,276: INFO/MainProcess] Task my_scraper_fn[03daae2f-8d41-4b21-ab90-456d3a661e02] received
+[2023-02-20 18:12:11,276: INFO/ForkPoolWorker-7] Task scraper_bot[99a8953d-da98-4d41-8d7e-1e448e2548b9] succeeded in 0.009872554000139644s: None
+[2023-02-20 18:12:11,277: INFO/ForkPoolWorker-8] ====== WebDriver manager ======
+[2023-02-20 18:12:11,325: INFO/ForkPoolWorker-8] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:12:11,899: INFO/ForkPoolWorker-8] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:12:27,779: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:12:41,416: INFO/MainProcess] Task scraper_bot[8b8dee93-fcf4-43c2-96e6-29c141ea9e97] received
+[2023-02-20 18:12:41,419: INFO/MainProcess] Task my_scraper_fn[4c94eb64-1274-4740-81dd-1c2ef48e0a7f] received
+[2023-02-20 18:12:41,420: INFO/ForkPoolWorker-7] Task scraper_bot[8b8dee93-fcf4-43c2-96e6-29c141ea9e97] succeeded in 0.0025075609992200043s: None
+[2023-02-20 18:12:41,421: INFO/ForkPoolWorker-1] ====== WebDriver manager ======
+[2023-02-20 18:12:41,467: INFO/ForkPoolWorker-1] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:12:41,862: INFO/ForkPoolWorker-1] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:12:42,449: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:12:50,981: WARNING/ForkPoolWorker-1] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x562216e12d93 <unknown>
+#1 0x562216be12d7 <unknown>
+#2 0x562216bbc655 <unknown>
+#3 0x562216c464ff <unknown>
+#4 0x562216c59066 <unknown>
+#5 0x562216c41353 <unknown>
+#6 0x562216c10e40 <unknown>
+#7 0x562216c12038 <unknown>
+#8 0x562216e668be <unknown>
+#9 0x562216e6a8f0 <unknown>
+#10 0x562216e4af90 <unknown>
+#11 0x562216e6bb7d <unknown>
+#12 0x562216e3c578 <unknown>
+#13 0x562216e90348 <unknown>
+#14 0x562216e904d6 <unknown>
+#15 0x562216eaa341 <unknown>
+#16 0x7fc93c894b43 <unknown>
+[2023-02-20 18:12:50,999: WARNING/ForkPoolWorker-1] Something went wrong. Please check.
+[2023-02-20 18:12:51,001: INFO/ForkPoolWorker-1] Task my_scraper_fn[4c94eb64-1274-4740-81dd-1c2ef48e0a7f] succeeded in 9.581112566999764s: None
+[2023-02-20 18:12:51,211: WARNING/ForkPoolWorker-8] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x55f63e764d93 <unknown>
+#1 0x55f63e5332d7 <unknown>
+#2 0x55f63e50e655 <unknown>
+#3 0x55f63e5984ff <unknown>
+#4 0x55f63e5ab066 <unknown>
+#5 0x55f63e593353 <unknown>
+#6 0x55f63e562e40 <unknown>
+#7 0x55f63e564038 <unknown>
+#8 0x55f63e7b88be <unknown>
+#9 0x55f63e7bc8f0 <unknown>
+#10 0x55f63e79cf90 <unknown>
+#11 0x55f63e7bdb7d <unknown>
+#12 0x55f63e78e578 <unknown>
+#13 0x55f63e7e2348 <unknown>
+#14 0x55f63e7e24d6 <unknown>
+#15 0x55f63e7fc341 <unknown>
+#16 0x7f397f894b43 <unknown>
+[2023-02-20 18:12:51,227: WARNING/ForkPoolWorker-8] Something went wrong. Please check.
+[2023-02-20 18:12:51,230: INFO/ForkPoolWorker-8] Task my_scraper_fn[03daae2f-8d41-4b21-ab90-456d3a661e02] succeeded in 39.95345019500019s: None
+[2023-02-20 18:13:34,618: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:13:34,620: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:13:35,628: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:13:35,639: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:13:35,639: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:13:42,472: INFO/MainProcess] Task scraper_bot[14c69916-1f5d-4bc5-83fd-2aa134a98401] received
+[2023-02-20 18:13:42,486: INFO/MainProcess] Task my_scraper_fn[0a62e7ac-f253-4871-b6ae-e4fe10e964b5] received
+[2023-02-20 18:13:42,487: INFO/ForkPoolWorker-7] Task scraper_bot[14c69916-1f5d-4bc5-83fd-2aa134a98401] succeeded in 0.013896566999392235s: None
+[2023-02-20 18:13:42,488: INFO/ForkPoolWorker-8] ====== WebDriver manager ======
+[2023-02-20 18:13:42,532: INFO/ForkPoolWorker-8] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:13:42,934: INFO/ForkPoolWorker-8] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:13:57,327: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:14:12,445: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:14:12,451: INFO/MainProcess] Task scraper_bot[011e7039-d1f5-4299-b5d6-196d03a77706] received
+[2023-02-20 18:14:12,454: INFO/MainProcess] Task my_scraper_fn[fb020738-ead5-4244-9e61-a75f60006e3f] received
+[2023-02-20 18:14:12,454: INFO/ForkPoolWorker-7] Task scraper_bot[011e7039-d1f5-4299-b5d6-196d03a77706] succeeded in 0.002007400000366033s: None
+[2023-02-20 18:14:12,455: INFO/ForkPoolWorker-7] ====== WebDriver manager ======
+[2023-02-20 18:14:12,520: INFO/ForkPoolWorker-7] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:14:12,939: INFO/ForkPoolWorker-7] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:14:31,828: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:14:32,157: WARNING/ForkPoolWorker-7] Data saved successfully.
+[2023-02-20 18:14:42,452: INFO/MainProcess] Task scraper_bot[b1461321-542c-43c9-b469-77c7c7168439] received
+[2023-02-20 18:14:42,469: INFO/MainProcess] Task my_scraper_fn[5820d51b-fe2b-4578-abc9-269fba467289] received
+[2023-02-20 18:14:42,470: INFO/ForkPoolWorker-1] Task scraper_bot[b1461321-542c-43c9-b469-77c7c7168439] succeeded in 0.01673176000076637s: None
+[2023-02-20 18:14:42,471: INFO/ForkPoolWorker-2] ====== WebDriver manager ======
+[2023-02-20 18:14:42,539: INFO/ForkPoolWorker-2] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:14:43,023: INFO/ForkPoolWorker-2] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:14:43,845: WARNING/ForkPoolWorker-8] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x560201e9dd93 <unknown>
+#1 0x560201c6c2d7 <unknown>
+#2 0x560201c47655 <unknown>
+#3 0x560201cd14ff <unknown>
+#4 0x560201ce4066 <unknown>
+#5 0x560201ccc353 <unknown>
+#6 0x560201c9be40 <unknown>
+#7 0x560201c9d038 <unknown>
+#8 0x560201ef18be <unknown>
+#9 0x560201ef58f0 <unknown>
+#10 0x560201ed5f90 <unknown>
+#11 0x560201ef6b7d <unknown>
+#12 0x560201ec7578 <unknown>
+#13 0x560201f1b348 <unknown>
+#14 0x560201f1b4d6 <unknown>
+#15 0x560201f35341 <unknown>
+#16 0x7f1331694b43 <unknown>
+[2023-02-20 18:14:43,873: WARNING/ForkPoolWorker-8] Something went wrong. Please check.
+[2023-02-20 18:14:43,877: INFO/ForkPoolWorker-8] Task my_scraper_fn[0a62e7ac-f253-4871-b6ae-e4fe10e964b5] succeeded in 61.39013898899975s: None
+[2023-02-20 18:14:46,972: WARNING/ForkPoolWorker-2] Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x5617f1205d93 <unknown>
+#1 0x5617f0fd415d <unknown>
+#2 0x5617f0fbe3aa <unknown>
+#3 0x5617f0fbcee2 <unknown>
+#4 0x5617f0fbd682 <unknown>
+#5 0x5617f0fcab4f <unknown>
+#6 0x5617f0fcb7a2 <unknown>
+#7 0x5617f0fdbba0 <unknown>
+#8 0x5617f0fdfe40 <unknown>
+#9 0x5617f0fbdb43 <unknown>
+#10 0x5617f0fdb7dc <unknown>
+#11 0x5617f104c83a <unknown>
+#12 0x5617f1034353 <unknown>
+#13 0x5617f1003e40 <unknown>
+#14 0x5617f1005038 <unknown>
+#15 0x5617f12598be <unknown>
+#16 0x5617f125d8f0 <unknown>
+#17 0x5617f123df90 <unknown>
+#18 0x5617f125eb7d <unknown>
+#19 0x5617f122f578 <unknown>
+#20 0x5617f1283348 <unknown>
+#21 0x5617f12834d6 <unknown>
+#22 0x5617f129d341 <unknown>
+#23 0x7f860a494b43 <unknown>
+[2023-02-20 18:14:47,113: WARNING/ForkPoolWorker-2] Something went wrong. Please check.
+[2023-02-20 18:14:47,117: INFO/ForkPoolWorker-2] Task my_scraper_fn[5820d51b-fe2b-4578-abc9-269fba467289] succeeded in 4.646496120000847s: None
+[2023-02-20 18:14:48,717: WARNING/ForkPoolWorker-7] object of type 'NoneType' has no len()
+[2023-02-20 18:14:48,807: WARNING/ForkPoolWorker-7] Something went wrong. Please check.
+[2023-02-20 18:14:48,812: INFO/ForkPoolWorker-7] Task my_scraper_fn[fb020738-ead5-4244-9e61-a75f60006e3f] succeeded in 36.357775845000106s: None
+[2023-02-20 18:23:28,908: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:23:28,914: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:23:29,922: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:23:29,931: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:23:29,931: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:23:30,570: INFO/MainProcess] Task scraper_bot[cf177e6c-767b-43f2-b0db-f35c2a1ebef9] received
+[2023-02-20 18:23:30,581: INFO/MainProcess] Task my_scraper_fn[f2f71238-4332-42f7-a862-5643506cbe77] received
+[2023-02-20 18:23:30,582: INFO/ForkPoolWorker-7] Task scraper_bot[cf177e6c-767b-43f2-b0db-f35c2a1ebef9] succeeded in 0.010273408999637468s: None
+[2023-02-20 18:23:30,583: INFO/ForkPoolWorker-8] ====== WebDriver manager ======
+[2023-02-20 18:23:30,633: INFO/ForkPoolWorker-8] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:23:31,277: INFO/ForkPoolWorker-8] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:23:46,780: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:24:00,456: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:24:00,550: INFO/MainProcess] Task scraper_bot[f83d8491-5ece-4e80-8243-c68c2851dee4] received
+[2023-02-20 18:24:00,556: INFO/ForkPoolWorker-7] Task scraper_bot[f83d8491-5ece-4e80-8243-c68c2851dee4] succeeded in 0.004430979999597184s: None
+[2023-02-20 18:24:00,557: INFO/MainProcess] Task my_scraper_fn[3d19662f-16a8-48e4-97e4-87b0d3e8f9c2] received
+[2023-02-20 18:24:00,562: INFO/ForkPoolWorker-7] ====== WebDriver manager ======
+[2023-02-20 18:24:00,618: INFO/ForkPoolWorker-7] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:24:00,968: INFO/ForkPoolWorker-7] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:24:18,462: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:24:18,972: WARNING/ForkPoolWorker-7] Data saved successfully.
+[2023-02-20 18:24:30,556: INFO/MainProcess] Task scraper_bot[91cd5f94-1d16-4910-a758-62d4d94279e6] received
+[2023-02-20 18:24:30,580: INFO/MainProcess] Task my_scraper_fn[1d1abede-6c3d-4486-9c94-41431ab969ac] received
+[2023-02-20 18:24:30,583: INFO/ForkPoolWorker-2] ====== WebDriver manager ======
+[2023-02-20 18:24:30,602: INFO/ForkPoolWorker-1] Task scraper_bot[91cd5f94-1d16-4910-a758-62d4d94279e6] succeeded in 0.04485444700003427s: None
+[2023-02-20 18:24:30,741: INFO/ForkPoolWorker-2] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:24:31,217: INFO/ForkPoolWorker-2] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:24:39,209: WARNING/ForkPoolWorker-8] Data saved successfully.
+[2023-02-20 18:24:42,496: WARNING/ForkPoolWorker-7] Data saved successfully.
+[2023-02-20 18:24:47,062: WARNING/ForkPoolWorker-7] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x560afbae3d93 <unknown>
+#1 0x560afb8b22d7 <unknown>
+#2 0x560afb88d655 <unknown>
+#3 0x560afb9174ff <unknown>
+#4 0x560afb92a066 <unknown>
+#5 0x560afb912353 <unknown>
+#6 0x560afb8e1e40 <unknown>
+#7 0x560afb8e3038 <unknown>
+#8 0x560afbb378be <unknown>
+#9 0x560afbb3b8f0 <unknown>
+#10 0x560afbb1bf90 <unknown>
+#11 0x560afbb3cb7d <unknown>
+#12 0x560afbb0d578 <unknown>
+#13 0x560afbb61348 <unknown>
+#14 0x560afbb614d6 <unknown>
+#15 0x560afbb7b341 <unknown>
+#16 0x7f3f70894b43 <unknown>
+[2023-02-20 18:24:47,212: WARNING/ForkPoolWorker-7] Something went wrong. Please check.
+[2023-02-20 18:24:47,217: INFO/ForkPoolWorker-7] Task my_scraper_fn[3d19662f-16a8-48e4-97e4-87b0d3e8f9c2] succeeded in 46.65645764200053s: None
+[2023-02-20 18:24:49,648: WARNING/ForkPoolWorker-8] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x5598c824dd93 <unknown>
+#1 0x5598c801c2d7 <unknown>
+#2 0x5598c7ff7655 <unknown>
+#3 0x5598c80814ff <unknown>
+#4 0x5598c8094066 <unknown>
+#5 0x5598c807c353 <unknown>
+#6 0x5598c804be40 <unknown>
+#7 0x5598c804d038 <unknown>
+#8 0x5598c82a18be <unknown>
+#9 0x5598c82a58f0 <unknown>
+#10 0x5598c8285f90 <unknown>
+#11 0x5598c82a6b7d <unknown>
+#12 0x5598c8277578 <unknown>
+#13 0x5598c82cb348 <unknown>
+#14 0x5598c82cb4d6 <unknown>
+#15 0x5598c82e5341 <unknown>
+#16 0x7f370ca94b43 <unknown>
+[2023-02-20 18:24:49,672: WARNING/ForkPoolWorker-8] Something went wrong. Please check.
+[2023-02-20 18:24:49,674: INFO/ForkPoolWorker-8] Task my_scraper_fn[f2f71238-4332-42f7-a862-5643506cbe77] succeeded in 79.09207791399967s: None
+[2023-02-20 18:29:18,092: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:29:18,095: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:29:19,103: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:29:19,113: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:29:19,114: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:29:42,136: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:29:42,139: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:29:43,150: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:29:43,162: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:29:43,162: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:29:45,493: INFO/MainProcess] Task scraper_bot[ebd7e848-52e8-41d2-9354-a394f54edc7a] received
+[2023-02-20 18:29:45,504: INFO/MainProcess] Task my_scraper_fn[75d7f8ba-8354-4f48-ab12-f6d43f987b81] received
+[2023-02-20 18:29:45,505: INFO/ForkPoolWorker-1] Task scraper_bot[ebd7e848-52e8-41d2-9354-a394f54edc7a] succeeded in 0.011156657001265557s: None
+[2023-02-20 18:29:45,507: INFO/ForkPoolWorker-1] ====== WebDriver manager ======
+[2023-02-20 18:29:45,552: INFO/ForkPoolWorker-1] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:29:46,062: INFO/ForkPoolWorker-1] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:30:01,802: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:30:15,476: INFO/MainProcess] Task scraper_bot[e8f2887d-d740-4755-a145-ef69cbed4cb8] received
+[2023-02-20 18:30:22,090: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:30:38,175: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:30:45,478: INFO/MainProcess] Task scraper_bot[b757b837-994a-4cb3-8a43-3cb84877287c] received
+[2023-02-20 18:30:53,692: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:31:08,137: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:31:15,481: INFO/MainProcess] Task scraper_bot[35e0189e-b8c5-4823-b71d-95e20b4edc9c] received
+[2023-02-20 18:31:24,173: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:31:40,712: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:31:43,843: WARNING/ForkPoolWorker-1] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x55cc5032dd93 <unknown>
+#1 0x55cc500fc2d7 <unknown>
+#2 0x55cc500d7655 <unknown>
+#3 0x55cc501614ff <unknown>
+#4 0x55cc50174066 <unknown>
+#5 0x55cc5015c353 <unknown>
+#6 0x55cc5012be40 <unknown>
+#7 0x55cc5012d038 <unknown>
+#8 0x55cc503818be <unknown>
+#9 0x55cc503858f0 <unknown>
+#10 0x55cc50365f90 <unknown>
+#11 0x55cc50386b7d <unknown>
+#12 0x55cc50357578 <unknown>
+#13 0x55cc503ab348 <unknown>
+#14 0x55cc503ab4d6 <unknown>
+#15 0x55cc503c5341 <unknown>
+#16 0x7f32ea894b43 <unknown>
+[2023-02-20 18:31:43,915: WARNING/ForkPoolWorker-1] Something went wrong. Please check.
+[2023-02-20 18:31:43,918: INFO/ForkPoolWorker-1] Task my_scraper_fn[75d7f8ba-8354-4f48-ab12-f6d43f987b81] succeeded in 118.4118497239997s: None
+[2023-02-20 18:31:43,926: INFO/MainProcess] Task my_scraper_fn[804aab34-49f6-4016-ba5a-f52ea9d17bc1] received
+[2023-02-20 18:31:43,926: INFO/ForkPoolWorker-1] Task scraper_bot[e8f2887d-d740-4755-a145-ef69cbed4cb8] succeeded in 0.005863509000846534s: None
+[2023-02-20 18:31:43,930: INFO/MainProcess] Task my_scraper_fn[b593e1c6-5857-40ef-a6a3-b5fe5ac83ea8] received
+[2023-02-20 18:31:43,931: INFO/ForkPoolWorker-1] Task scraper_bot[b757b837-994a-4cb3-8a43-3cb84877287c] succeeded in 0.003569890001017484s: None
+[2023-02-20 18:31:43,936: INFO/ForkPoolWorker-1] Task scraper_bot[35e0189e-b8c5-4823-b71d-95e20b4edc9c] succeeded in 0.0036847259998467052s: None
+[2023-02-20 18:31:43,936: INFO/MainProcess] Task my_scraper_fn[990f229c-bcbc-4acd-9981-7e884d30e4e2] received
+[2023-02-20 18:31:43,939: INFO/ForkPoolWorker-1] ====== WebDriver manager ======
+[2023-02-20 18:31:43,999: INFO/ForkPoolWorker-1] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:31:44,441: INFO/ForkPoolWorker-1] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:31:45,484: INFO/MainProcess] Task scraper_bot[89c1fefd-deee-486d-b0b3-3bcd33b2bbd2] received
+[2023-02-20 18:31:53,361: WARNING/ForkPoolWorker-1] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.77)
+Stacktrace:
+#0 0x56011067ad93 <unknown>
+#1 0x5601104492d7 <unknown>
+#2 0x560110424655 <unknown>
+#3 0x5601104ae4ff <unknown>
+#4 0x5601104c1066 <unknown>
+#5 0x5601104a9353 <unknown>
+#6 0x560110478e40 <unknown>
+#7 0x56011047a038 <unknown>
+#8 0x5601106ce8be <unknown>
+#9 0x5601106d28f0 <unknown>
+#10 0x5601106b2f90 <unknown>
+#11 0x5601106d3b7d <unknown>
+#12 0x5601106a4578 <unknown>
+#13 0x5601106f8348 <unknown>
+#14 0x5601106f84d6 <unknown>
+#15 0x560110712341 <unknown>
+#16 0x7f5070894b43 <unknown>
+[2023-02-20 18:31:53,399: WARNING/ForkPoolWorker-1] Something went wrong. Please check.
+[2023-02-20 18:31:53,401: INFO/ForkPoolWorker-1] Task my_scraper_fn[804aab34-49f6-4016-ba5a-f52ea9d17bc1] succeeded in 9.462508279999383s: None
+[2023-02-20 18:31:53,403: INFO/ForkPoolWorker-1] ====== WebDriver manager ======
+[2023-02-20 18:31:53,472: INFO/ForkPoolWorker-1] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:31:53,878: INFO/ForkPoolWorker-1] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:32:15,429: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:32:15,433: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:32:16,441: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:32:16,452: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:32:16,453: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:32:17,374: INFO/MainProcess] Task scraper_bot[b66cf91a-abae-4255-b712-88ca1426b16f] received
+[2023-02-20 18:32:17,385: INFO/MainProcess] Task my_scraper_fn[29016596-fd2c-48e4-aba6-d1c16c4a5189] received
+[2023-02-20 18:32:17,386: INFO/ForkPoolWorker-1] Task scraper_bot[b66cf91a-abae-4255-b712-88ca1426b16f] succeeded in 0.010410283000965137s: None
+[2023-02-20 18:32:17,387: INFO/ForkPoolWorker-1] ====== WebDriver manager ======
+[2023-02-20 18:32:17,430: INFO/ForkPoolWorker-1] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:32:17,812: INFO/ForkPoolWorker-1] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:32:31,875: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:32:45,956: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:32:47,355: INFO/MainProcess] Task scraper_bot[c82044cb-0ec8-4d6d-8ebc-e97b62919265] received
+[2023-02-20 18:33:00,332: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:33:14,154: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:33:17,354: INFO/MainProcess] Task scraper_bot[2a9588db-2c82-4193-8075-0e2fc2722aa2] received
+[2023-02-20 18:33:28,863: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:33:42,479: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:33:47,356: INFO/MainProcess] Task scraper_bot[aa902d43-eb82-40c0-b034-6fd10aeb12aa] received
+[2023-02-20 18:33:56,132: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:34:10,945: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:34:17,366: INFO/MainProcess] Task scraper_bot[8b30fd21-539e-490d-924a-80941e797026] received
+[2023-02-20 18:34:25,619: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:35:09,924: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:35:09,927: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:35:10,937: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:35:10,949: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:35:10,950: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:35:18,322: INFO/MainProcess] Task scraper_bot[647ef964-db45-4977-a516-726a39287d6c] received
+[2023-02-20 18:35:18,334: INFO/MainProcess] Task my_scraper_fn[b17063d5-8f81-48cc-843e-eeabfe54f59e] received
+[2023-02-20 18:35:18,335: INFO/ForkPoolWorker-1] Task scraper_bot[647ef964-db45-4977-a516-726a39287d6c] succeeded in 0.01101389600080438s: None
+[2023-02-20 18:35:18,336: INFO/ForkPoolWorker-1] ====== WebDriver manager ======
+[2023-02-20 18:35:18,385: INFO/ForkPoolWorker-1] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:35:18,912: INFO/ForkPoolWorker-1] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:35:34,091: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:35:48,316: INFO/MainProcess] Task scraper_bot[5aa0c1de-224e-4634-aed6-0c0bf1294ba1] received
+[2023-02-20 18:35:48,641: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:36:03,709: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:38:40,841: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 18:38:40,844: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 18:38:41,856: INFO/MainProcess] mingle: all alone
+[2023-02-20 18:38:41,867: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 18:38:41,867: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 18:38:41,871: INFO/MainProcess] Task scraper_bot[9fe96cd0-f25d-48e9-8d5b-8596f8cf9f10] received
+[2023-02-20 18:38:41,882: INFO/MainProcess] Task my_scraper_fn[4127477f-4337-4e82-a089-ee9cd07658c0] received
+[2023-02-20 18:38:41,883: INFO/ForkPoolWorker-1] Task scraper_bot[9fe96cd0-f25d-48e9-8d5b-8596f8cf9f10] succeeded in 0.010976229001244064s: None
+[2023-02-20 18:38:41,885: INFO/ForkPoolWorker-1] ====== WebDriver manager ======
+[2023-02-20 18:38:41,939: INFO/ForkPoolWorker-1] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 18:38:42,348: INFO/ForkPoolWorker-1] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 18:39:01,759: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 18:39:11,050: INFO/MainProcess] Task scraper_bot[9a69ba36-3c65-4749-a82d-7dc0eafac733] received
+[2023-02-20 18:39:18,336: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:09:10,919: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-20 19:09:10,922: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-20 19:09:11,930: INFO/MainProcess] mingle: all alone
+[2023-02-20 19:09:11,942: WARNING/MainProcess] /home/manishankar/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-02-20 19:09:11,942: INFO/MainProcess] celery@manishankar ready.
+[2023-02-20 19:09:11,946: INFO/MainProcess] Task scraper_bot[9b78f605-e68a-4a17-a5e1-78db1af85803] received
+[2023-02-20 19:09:11,957: INFO/MainProcess] Task my_scraper_fn[d582dffb-ac14-4d9f-99d2-ec4bfd99cc97] received
+[2023-02-20 19:09:11,958: INFO/ForkPoolWorker-1] Task scraper_bot[9b78f605-e68a-4a17-a5e1-78db1af85803] succeeded in 0.011318175000269548s: None
+[2023-02-20 19:09:11,960: INFO/ForkPoolWorker-1] ====== WebDriver manager ======
+[2023-02-20 19:09:12,009: INFO/ForkPoolWorker-1] Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 19:09:12,602: INFO/ForkPoolWorker-1] Driver [/home/manishankar/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 19:09:27,450: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:09:40,794: INFO/MainProcess] Task scraper_bot[5d509746-427b-47cd-a25f-0a0868b54a33] received
+[2023-02-20 19:09:42,115: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:09:55,123: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:10:08,696: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:10:10,795: INFO/MainProcess] Task scraper_bot[cde901a9-a4e5-4d37-84ed-4de389687ab1] received
+[2023-02-20 19:10:22,969: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:10:37,503: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:10:40,800: INFO/MainProcess] Task scraper_bot[2497aea5-76fd-4e4b-b869-ddf387ea48a5] received
+[2023-02-20 19:10:53,332: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:10:55,841: INFO/MainProcess] Task scraper_bot[071aa106-005d-4e70-a044-bcb8067e4061] received
+[2023-02-20 19:11:06,972: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:11:20,527: WARNING/ForkPoolWorker-1] Data saved successfully.
+[2023-02-20 19:11:34,055: WARNING/ForkPoolWorker-1] Data saved successfully.
